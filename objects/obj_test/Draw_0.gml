@@ -1,6 +1,6 @@
 draw_text(8, 32, 
 	$"Max Total Size: {byteConverter(VramDoctorGetTotalSize())}\n"+
-	$"Max Sprite Texture Size: {byteConverter(VramDoctorGetSpriteTextureSize())}\n"+
+	$"Max Sprite Texture Size: {byteConverter(VramDoctorGetTexturePageSize())}\n"+
 	$"Max Surface Texture Size: {byteConverter(VramDoctorGetSurfaceTextureSize())}\n"+
 	$"Max Total Texture Size: {byteConverter(VramDoctorGetTextureSize())}\n"+
 	$"Max VBO Size: {byteConverter(VramDoctorGetVBOSize())}\n"+

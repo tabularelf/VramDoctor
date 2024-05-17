@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"VramDoctorGetSpriteTextureSize",
+  "%Name":"VramDoctorGetTexturePageSize",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"VramDoctorGetSpriteTextureSize",
+  "name":"VramDoctorGetTexturePageSize",
   "parent":{
     "name":"Vram Doctor",
     "path":"folders/Vram Doctor.yy",
