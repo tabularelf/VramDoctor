@@ -12,4 +12,6 @@ function VramDoctorSetAutoTick(_value) {
 			time_source_start(_global.timeSource);
 		}	
 	}
+	
+	_global.autoTick = _value;
 }

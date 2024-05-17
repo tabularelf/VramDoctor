@@ -16,6 +16,7 @@ function __VramDoctorGlobal() {
 			currentVBOSize = 0;
 			currentSurfaceSize = 0;
 			currentSpriteSize = 0;
+			autoTick = true;
 			timeSource = time_source_create(time_source_global, 0.01, time_source_units_seconds, __VramDoctorTick, [], -1);
 			if (os_browser == browser_not_a_browser) {	
 				time_source_start(timeSource);
