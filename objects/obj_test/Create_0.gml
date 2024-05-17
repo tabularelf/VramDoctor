@@ -10,11 +10,14 @@ vertex_begin(vertex, format);
 repeat(1) vertex_position(vertex, 0, 0);
 vertex_end(vertex);
 vertex_freeze(vertex);
-
-var _info = os_get_info();
-vram = _info[? "video_adapter_dedicatedvideomemory"];
-vramTotal = vram + _info[? "video_adapter_sharedsystemmemory"];
-ds_map_destroy(_info);
+vram = 0;
+vramTotal = 0;
+if (os_type == os_windows) {
+	var _info = os_get_info();
+	vram = _info[? "video_adapter_dedicatedvideomemory"];
+	vramTotal = vram + _info[? "video_adapter_sharedsystemmemory"];
+	ds_map_destroy(_info);
+}
 
 byteConverter = function(_num) {
 	static _nums = [
