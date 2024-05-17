@@ -1,6 +1,6 @@
 # General
 
-### `VramDoctorGetSpriteTextureSize()`
+### `VramDoctorGetTexturePageSize()`
 
 Returns: `Real`
 
@@ -63,7 +63,7 @@ Returns: `Real`
 |---|---|---|
 |`N/A`|||
 
-Returns the total size of everything. Effectively the same as calling `VramDoctorGetSpriteTextureSize()`, `VramDoctorGetSurfaceTextureSize()`, `VramDoctorGetTextureSize()` and `VramDoctorGetVBOSize()`.
+Returns the total size of everything. Effectively the same as calling `VramDoctorGetTexturePageSize()`, `VramDoctorGetSurfaceTextureSize()`, `VramDoctorGetTextureSize()` and `VramDoctorGetVBOSize()`.
 
 ### `VramDoctorSetAutoTick(bool)`
 
