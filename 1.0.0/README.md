@@ -12,8 +12,10 @@ Vram Doctor was designed originally as a small debugging vram data tool directly
 
 # Features
 - Automatic addition and removal of on the fly sprites, fonts, vertex buffers and surfaces.
-- Very accurate estimations of texture page vram allocation
-- 
+- Very accurate estimations of texture page vram allocation.
+- Automatic `application_surface` tracking.
+- Texture group export awareness.
+- Ability to adjust or completely shut off Vram Doctor automatic tick system.
 
 # Supported Platforms
 
@@ -24,4 +26,4 @@ Vram Doctor was designed originally as a small debugging vram data tool directly
 
 # License
 
-Canvas is under the [MIT License](https://github.com/tabularelf/Canvas/blob/main/LICENSE).
+Vram Doctor is under the [MIT License](https://github.com/tabularelf/VramDoctor/blob/main/LICENSE).

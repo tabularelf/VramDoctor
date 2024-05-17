@@ -3,3 +3,4 @@
 ---
 **API Reference**
 - [General](general.md)
+- [Memory Management](memory-management.md)
