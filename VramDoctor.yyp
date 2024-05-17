@@ -13,10 +13,7 @@
     {"$GMFolder":"","%Name":"Vram Doctor","folderPath":"folders/Vram Doctor.yy","name":"Vram Doctor","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"System","folderPath":"folders/Vram Doctor/System.yy","name":"System","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"FiraCode-Regular.ttf","CopyToMask":-1,"filePath":"datafiles","name":"FiraCode-Regular.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"spr_soldier.png","CopyToMask":-1,"filePath":"datafiles","name":"spr_soldier.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -52,8 +49,7 @@
     {"id":{"name":"VramDoctorSetAutoTick","path":"scripts/VramDoctorSetAutoTick/VramDoctorSetAutoTick.yy",},},
     {"id":{"name":"VramDoctorSetSeconds","path":"scripts/VramDoctorSetSeconds/VramDoctorSetSeconds.yy",},},
     {"id":{"name":"VramDoctorUpdate","path":"scripts/VramDoctorUpdate/VramDoctorUpdate.yy",},},
-    {"id":{"name":"huh_cat","path":"sprites/huh_cat/huh_cat.yy",},},
-    {"id":{"name":"IMG_2288","path":"sprites/IMG_2288/IMG_2288.yy",},},
+    {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

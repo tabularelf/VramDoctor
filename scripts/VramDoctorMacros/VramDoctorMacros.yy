@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"VramDoctorMacros",
   "parent":{
-    "name":"Vram Doctor",
-    "path":"folders/Vram Doctor.yy",
+    "name":"System",
+    "path":"folders/Vram Doctor/System.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

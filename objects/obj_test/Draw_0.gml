@@ -6,3 +6,8 @@ draw_text(8, 32,
 	$"Max VBO Size: {byteConverter(VramDoctorGetVBOSize())}\n"+
 	$"Max Usage Against VRAM/SharedMemory: {byteConverter(VramDoctorGetTotalSize())}\\{byteConverter(vram)}\\{byteConverter(vramTotal)}"
 );
+
+
+if (texture_is_ready(sprite_get_info(spr_logo).frames[0].texture)) {
+	draw_sprite(spr_logo, current_time / 500, 618, 0);	
+}
