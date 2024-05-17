@@ -8,6 +8,16 @@ draw_text(8, 32,
 );
 
 
+draw_text(8, 256, 
+	@"Controls:
+	Prefetch: Mouse Left
+	Clear: Mouse Right
+	Toggle Application Surface: Space
+	Toggle Surface Depth: Control
+	"
+);
+
+
 if (texture_is_ready(sprite_get_info(spr_logo).frames[0].texture)) {
 	draw_sprite(spr_logo, current_time / 500, 618, 0);	
 }

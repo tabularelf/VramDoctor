@@ -91,7 +91,15 @@ function __VramDoctorTick() {
 	
 	// Vertex buffers
 	for(var _i = 0, _len = array_length(_global.vbos); _i < _len; ++_i) {
-		_size = vertex_get_buffer_size(_global.vbos[_i]);
+		_size = 0;
+		try {
+			_size = vertex_get_buffer_size(_global.vbos[_i]);	
+		} catch(_) {
+			array_delete(_global.vbos, _i, 1);
+			--_len;
+			--_i;
+			continue;
+		}
 		_global.currentSize += _size;
 		_global.currentVBOSize += _size;
 	}

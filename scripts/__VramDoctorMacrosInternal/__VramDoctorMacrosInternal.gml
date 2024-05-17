@@ -1,11 +1,3 @@
-#macro vertex_create_buffer_from_buffer_ext __VramDoctorVertexCreateFromBuffer
-#macro font_add __VramDoctorFontAdd
-#macro surface_create __VramDoctorSurfaceCreate
-#macro sprite_add __VramDoctorSpriteAdd
-#macro sprite_create_from_surface VramDoctorSpriteCreateFromSurface
-#macro vertex_delete_buffer __VramDoctorVertexDelete
-#macro vertex_freeze __VramDoctorVertexFreeze
-
 #macro __vram_doctor_surface_create__ surface_create
 #macro __vram_doctor_sprite_add__ sprite_add
 #macro __vram_doctor_sprite_create_from_surface__ sprite_create_from_surface

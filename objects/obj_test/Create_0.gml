@@ -10,6 +10,7 @@ vertex_begin(vertex, format);
 repeat(1) vertex_position(vertex, 0, 0);
 vertex_end(vertex);
 vertex_freeze(vertex);
+
 var _info = os_get_info();
 vram = _info[? "video_adapter_dedicatedvideomemory"];
 vramTotal = vram + _info[? "video_adapter_sharedsystemmemory"];

@@ -1,8 +1,12 @@
 /// feather ignore all
 /// @ignore
+#macro __VRAM_DOCTOR_VERSION "1.0.0"
+#macro __VRAM_DOCTOR_CREDITS "@TabularElf (https://tabelf.link/)"
+
 function __VramDoctorGlobal() {
 	static _init = false;
 	static _global = new (function() constructor {
+			show_debug_message($"Vram Doctor {__VRAM_DOCTOR_VERSION} initalized! Created by {__VRAM_DOCTOR_CREDITS}");
 			surfaces = [];
 			vbos = [];
 			fonts = [];

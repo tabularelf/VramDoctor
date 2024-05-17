@@ -6,6 +6,3 @@ if (mouse_check_button(mb_left)) && !is_mouse_over_debug_overlay() {
 	texture_prefetch("Default");
 }
 
-if (keyboard_check_released(vk_space)) {
-	draw_texture_flush();
-}

@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"VramDoctorMacros",
+  "%Name":"__VramDoctorMacrosInternal",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"VramDoctorMacros",
+  "name":"__VramDoctorMacrosInternal",
   "parent":{
     "name":"System",
     "path":"folders/Vram Doctor/System.yy",
